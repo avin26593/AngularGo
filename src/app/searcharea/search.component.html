@@ -1,0 +1,55 @@
+<div class="container " id="searchcomp">
+        <div class="row" id="sbar">
+                <div class="form-inline">
+                        <div class = "">
+        <input class="form-control" name="search" #searchTerm id="searchbar1" placeholder="Search">
+
+        <button (click)="performSearch(searchTerm)" class="btn btn-success btn-large">Search</button> <br>
+        </div>
+        </div>
+        </div>
+</div>
+
+<div class="row " id="results">
+        <ul *ngFor="let m of movies"> <li><a href="#" class="well col-12"> {{m.name}}, Rating {{m.rating}}*</a></li>
+        </ul>
+</div>
+
+ 
+     
+    
+            
+    
+                <!--<select class="form-control"  aria-placeholder="City" aria-dropeffect="fade">
+    
+                        <option>Bangalore</option>
+    
+                        <option>Chennai</option>
+    
+    
+    
+                      </select>	-->					
+    
+                <!--<select class="form-control"  aria-placeholder="Cuisines">
+    
+                        <option>Chinese</option>
+    
+                        <option>Pizza</option>
+    
+                        <option>Indian</option>
+    
+                        <option>Italian</option>
+    
+                      </select>-->
+
+                      
+                 
+    
+                <!--<button type="button" class="btn btn-success btn-lg"> Search </button>-->
+    
+        
+    
+            
+    
+        
+   

@@ -1,0 +1,23 @@
+footer{
+    background: #464c4c;
+    color:white;
+    padding-top: 30px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+
+    width: 100%;
+
+ }
+ 
+ 
+ .icons {
+ width: 35px;
+ padding: 3px;
+ border: 0;
+ box-shadow: 0;
+ display: inline;
+ }
+ .social{
+    padding-left: 20px
+ }

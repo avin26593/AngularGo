@@ -1,0 +1,5 @@
+<div class="container" id="searchcomp">
+  <input name="search" #searchTerm id="searchbar">
+  <button (click)="performSearch(searchTerm)" class="btn btn-primary">Search</button> <br>
+  <ul *ngFor="let m of movies"> <li><a target="_blank"  href="#"> {{m.name}}</a></li></ul>
+  </div>
